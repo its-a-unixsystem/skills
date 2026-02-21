@@ -13,8 +13,10 @@ Two operations: **search** (discover jobs by criteria) and **fetch** (get a spec
 
 **Cost: ~$1.50 per 1k records.** Always use `--limit` to control costs. Default limit is 25.
 
+Script paths below are relative to this skill's directory.
+
 ```bash
-python3 ~/.claude/skills/linkedin-jobs/scripts/search_linkedin_jobs.py "software engineer" \
+python3 scripts/search_linkedin_jobs.py "software engineer" \
   --location "United States" \
   --remote Remote \
   --time-range "Past month" \
@@ -42,8 +44,8 @@ Returns an array of job objects.
 Takes ~30 seconds. Accepts a full LinkedIn URL or numeric job ID.
 
 ```bash
-python3 ~/.claude/skills/linkedin-jobs/scripts/fetch_linkedin_job.py 4358573391
-python3 ~/.claude/skills/linkedin-jobs/scripts/fetch_linkedin_job.py "https://www.linkedin.com/jobs/view/4358573391"
+python3 scripts/fetch_linkedin_job.py 4358573391
+python3 scripts/fetch_linkedin_job.py "https://www.linkedin.com/jobs/view/4358573391"
 ```
 
 Returns a single job object.

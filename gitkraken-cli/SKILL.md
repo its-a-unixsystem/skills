@@ -1,9 +1,9 @@
 ---
-name: gk-cli
+name: gitkraken-cli
 description: Use the GitKraken CLI (gk) for git operations instead of raw git/gh commands. Activate this skill whenever performing git operations like committing, creating PRs, pushing, resolving conflicts, explaining changes, generating changelogs, or managing branches and work items. Even if the user doesn't mention "gk" or "GitKraken" explicitly, use gk commands for any git workflow where gk has a matching command, falling back to raw git only for operations gk doesn't cover.
 ---
 
-# GitKraken CLI (gk)
+# GitKraken CLI
 
 Use `gk` as the primary tool for git operations. It wraps git with AI-powered features and multi-repo workflow management. Fall back to raw `git` only for operations `gk` doesn't cover.
 

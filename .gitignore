@@ -1,0 +1,6 @@
+.agents/
+.claude/
+.factory/
+.windsurf/
+.agent/
+skills-lock.json
